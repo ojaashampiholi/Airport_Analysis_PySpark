@@ -35,3 +35,20 @@ This project focuses on running Apache Spark on Google Colab to perform Explorat
 ![plot](./query_images/aggregate.JPG)
 
 ## Spark SQL
+
+### **Find the Airport with Highest Number of Flight Departures**
+
+![plot](./query_images/highest_flight_departures.JPG)
+
+### **Find the Airport with Highest Number of Passenger Arrivals**
+
+![plot](./query_images/highest_passenger_arrivals.JPG)
+
+
+
+
+
+
+
+
+
