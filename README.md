@@ -6,15 +6,32 @@ This project focuses on running Apache Spark on Google Colab to perform Explorat
 
 ## Reading CSV File using Spark
 
-## Insights into Data, Spark Transformations and Actions
+## Insights into Data
 
-**The Number of Records in the dataset are**
+### **The Number of Records in the dataset are**
 
 ![plot](./query_images/count_rows.JPG)
 
-**The Schema for the dataset is as follows:**
+### **The Schema for the dataset is as follows**
 
 ![plot](./query_images/schema.JPG)
 
-## Spark SQL
+### **Various Statistical Analysis Factors for the Features can be seen below**
 
+![plot](./query_images/describe.JPG)
+
+## Spark Transformations and Actions
+
+### **Viewing First 5 Rows of Data**
+
+![plot](./query_images/show.JPG)
+
+### **Selecting Subset of Features**
+
+![plot](./query_images/subset.JPG)
+
+### **Aggregating the Data**
+
+![plot](./query_images/aggregate.JPG)
+
+## Spark SQL
