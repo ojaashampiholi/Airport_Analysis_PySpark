@@ -42,8 +42,10 @@ This project focuses on running Apache Spark on Google Colab to perform Explorat
 
 **Aggregating the Data**
 
-`airportAgg_DF = df.groupBy("Origin_airport").agg(F.sum("Passengers"))`
-`airportAgg_DF.show(10)`
+```python
+airportAgg_DF = df.groupBy("Origin_airport").agg(F.sum("Passengers"))
+airportAgg_DF.show(10)
+```
  
 ![plot](./query_images/aggregate.JPG)
 
