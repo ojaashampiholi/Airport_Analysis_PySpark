@@ -6,6 +6,11 @@ This project focuses on running Apache Spark on Google Colab to perform Explorat
 
 ## Reading CSV File using Spark
 
+```python
+df = spark.read.csv("/content/drive/MyDrive/spark_file/Airports2.csv", header=True, inferSchema=True)
+df.registerTempTable('df')
+```
+
 ## Insights into Data
 
 **The Number of Records in the dataset are**
