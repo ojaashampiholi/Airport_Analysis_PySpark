@@ -1,5 +1,14 @@
 # Exploratory Analysis on Airport using PySpark
-This project focuses on running Apache Spark on Google Colab to perform Exploratory Analysis on Flights within US.
+This project focuses performing Exploratory Analysis on Flights within US using PySpark which is run on Google Colab Notebook Environment.
+
+**The major steps that the project follows are as follows:**
+
+1. Installing Spark and Initializing PySpark on Google Colab Notebook.
+2. Reading the CSV Data File into Spark.
+3. Converting the Spark DataFrame to a temporary table that can be used with SparkSQL.
+4. Implementing Transfomations and Actions on Spark DataFrame.
+5. Implementing SparkSQL using SQLContext Module.
+
 ## Data
 
 ## Installing  and Initializing Spark
