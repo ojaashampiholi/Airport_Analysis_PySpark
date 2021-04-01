@@ -11,6 +11,10 @@ This project focuses performing Exploratory Analysis on Flights within US using 
 
 ## Data
 
+The data is open source and can be found on kaggle under the [title USA Airport Dataset](https://www.kaggle.com/flashgordon/usa-airport-dataset)
+
+This project uses the datset that is available at the link as of 31 March, 2021. 
+
 ## Installing and Initializing Spark
 
 1. Download JRE Headless version to Notebook.
@@ -164,7 +168,7 @@ distanceQuery.show(15)
 
 ![plot](./query_images/occupancy_rates.JPG)
 
-The occupancy rates of the most popular flights is somewhere between 48% and 71% with an average of 60%. This implies that the although there are a lot of flights that operate between the airports, most of them are not efficient in terms of passenger traffic. Also, reducing and rescheduling some flights to increase the occupancy rate can help the Airlines to reduce their fuel costs, while also helping to protect the environment by reducing carbon footprint.
+The occupancy rates of the most popular flights is somewhere between 48% and 71% with an average of 60%. This implies that although there are lots of flights that operate between the airports, most of them are not efficient in terms of passenger traffic. Also, reducing and rescheduling some flights to increase occupancy rates can help the Airlines to reduce their fuel costs, while also helping to protect environment by reducing carbon footprint.
 
 **Find the Number of Flights for Long Distance Journeys**
 
@@ -187,7 +191,7 @@ distanceQuery.show(15)
 
 ![plot](./query_images/FvD1.JPG)
 
-We can observe from the table that in most of the cases, the frequency of long distance flights is  less. However, it is interesting to note that there are a lot of flights that operate between Hawaii - Honolulu (Honolulu International Airport) and New York (John F Kennedy Intenational Airport and Newark Liberty Intenational Airport) even with the considerable long distance between the two places.
+We can observe from the table that in most of the cases, the frequency of long distance flights is low. However, it is interesting to note that there are lots of flights that operate between Hawaii - Honolulu (Honolulu International Airport) and New York (John F Kennedy Intenational Airport and Newark Liberty Intenational Airport) even with considerable long distance between the two places.
 
 **Find the Average Distances for the Routes with Most Flights**
 
@@ -210,4 +214,4 @@ distanceQuery.show(15)
 
 ![plot](./query_images/FvD2.JPG)
 
-We can see that medium distance routes (100-300 miles) have the most number of flights except for a few exception cases. Flight Route between Chicago (ORD) and New York (EWR, LGA) is operated heavily even thought the distances between the airports is 725 miles. Another interesting case that we see here is that the flight between Atlanta (ATL) and Dallas/Fort Worth (DFW) is a popular service even though the distance is around 720 miles.
+We can see that medium distance routes (100-300 miles) have the most number of flights except for few exception cases. Flight Route between Chicago (ORD) and New York (EWR, LGA) is operated heavily even thought the distance between airports is 725 miles. Another interesting case that we see here is that flight between Atlanta (ATL) and Dallas/Fort Worth (DFW) is popular service even though the distance is around 720 miles.
