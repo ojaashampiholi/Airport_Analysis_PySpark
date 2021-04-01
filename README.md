@@ -11,7 +11,15 @@ This project focuses performing Exploratory Analysis on Flights within US using 
 
 ## Data
 
-## Installing  and Initializing Spark
+## Installing and Initializing Spark
+
+1. Download JRE Headless version to Notebook.
+2. Download Spark with Hadoop installation zip file and unzip it for further use.
+3. Set the Javahome and Sparkhome variables.
+4. Install and Initialize findspark library.
+5. Create Spark and SQLContext Sessions.
+
+The above steps can be found in the [Notebook](https://github.com/ojaashampiholi/Airport_Analysis_PySpark/blob/main/Airport_Analysis_PySpark.ipynb)
 
 ## Reading CSV File using Spark
 
@@ -82,6 +90,8 @@ originAirports.show()
 
 ![plot](./query_images/highest_flight_departures.JPG)
 
+We can see that the most popular airports in terms of flights departures are Chicago O'Hare, Hartsfield-Jackson Atlanta, Dallas/Fort Worth and Los Angeles International Airports in the same order.
+
 **Find the Airport with Highest Number of Passenger Arrivals**
 
 ```python
@@ -91,6 +101,8 @@ destinationAirports.show()
 ```
 
 ![plot](./query_images/highest_passenger_arrival.JPG)
+
+We can see that the most popular airports in terms of passenger arrivals are Hartsfield-Jackson Atlanta, Chicago O'Hare, Dallas/Fort Worth and Los Angeles International Airports in the same order.
 
 **Find the Airport with Most Flight Traffic**
 
@@ -109,6 +121,8 @@ MostFlightsByAirports.show()
 
 ![plot](./query_images/airport_most_flights.JPG)
 
+We can see that the most popular airports in terms of Number of Flights are Chicago O'Hare, Hartsfield-Jackson Atlanta, Dallas/Fort Worth and Los Angeles International Airports in the same order.
+
 **Find the Airport with Most Passenger Footfall**
 
 ```python
@@ -125,6 +139,8 @@ MostPassengersByAirports.show()
 ```
 
 ![plot](./query_images/airport_most_passengers.JPG)
+
+We can see that the most popular airports in terms of Number of Passengers are Dallas/Fort Worth, Hartsfield-Jackson Atlanta, Chicago O'Hare and Los Angeles International Airports in the same order.
 
 **Find the Occupancy Rate for Most Popular Routes**
 
@@ -148,6 +164,8 @@ distanceQuery.show(15)
 
 ![plot](./query_images/occupancy_rates.JPG)
 
+The occupancy rates of the most popular flights is somewhere between 48% and 71% with an average of 60%. This implies that the although there are a lot of flights that operate between the airports, most of them are not efficient in terms of passenger traffic. Also, reducing and rescheduling some flights to increase the occupancy rate can help the Airlines to reduce their fuel costs, while also helping to protect the environment by reducing carbon footprint.
+
 **Find the Number of Flights for Long Distance Journeys**
 
 ```python
@@ -169,6 +187,8 @@ distanceQuery.show(15)
 
 ![plot](./query_images/FvD1.JPG)
 
+We can observe from the table that in most of the cases, the frequency of long distance flights is  less. However, it is interesting to note that there are a lot of flights that operate between Hawaii - Honolulu (Honolulu International Airport) and New York (John F Kennedy Intenational Airport and Newark Liberty Intenational Airport) even with the considerable long distance between the two places.
+
 **Find the Average Distances for the Routes with Most Flights**
 
 ```python
@@ -189,3 +209,5 @@ distanceQuery.show(15)
 ```
 
 ![plot](./query_images/FvD2.JPG)
+
+We can see that medium distance routes (100-300 miles) have the most number of flights except for a few exception cases. Flight Route between Chicago (ORD) and New York (EWR, LGA) is operated heavily even thought the distances between the airports is 725 miles. Another interesting case that we see here is that the flight between Atlanta (ATL) and Dallas/Fort Worth (DFW) is a popular service even though the distance is around 720 miles.
