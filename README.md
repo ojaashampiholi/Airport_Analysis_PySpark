@@ -11,7 +11,7 @@ This project focuses performing Exploratory Analysis on Flights within US using 
 
 ## Data
 
-The data is open source and can be found on kaggle under the [title USA Airport Dataset](https://www.kaggle.com/flashgordon/usa-airport-dataset)
+The data is open source and can be found on kaggle under the title [USA Airport Dataset](https://www.kaggle.com/flashgordon/usa-airport-dataset)
 
 This project uses the datset that is available at the link as of 31 March, 2021. 
 
