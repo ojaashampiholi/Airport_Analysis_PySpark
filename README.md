@@ -13,7 +13,7 @@ This project focuses performing Exploratory Analysis on Flights within US using 
 
 The data is open source and can be found on kaggle under the title [USA Airport Dataset](https://www.kaggle.com/flashgordon/usa-airport-dataset)
 
-This project uses the datset that is available at the link as of 31 March, 2021. 
+This project uses the dataset that is available at the link as of 31 March, 2021. 
 
 ## Installing and Initializing Spark
 
